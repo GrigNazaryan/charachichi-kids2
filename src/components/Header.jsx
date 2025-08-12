@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useLanguage } from "./translations/LanguageContext.jsx";
+import { useLanguage } from "../translations/LanguageContext.jsx";
 import { NavLink } from "react-router-dom";
 
 function Header() {

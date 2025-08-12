@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import { useLanguage } from './translations/LanguageContext';
+import { useLanguage } from '../translations/LanguageContext.jsx';
 
 function Contacts() {
   const { t } = useLanguage();

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLanguage } from './translations/LanguageContext.jsx';
+import { useLanguage } from '../translations/LanguageContext.jsx';
 
 function Pricing() {
   const { t } = useLanguage();

@@ -1,4 +1,4 @@
-import { useLanguage } from "./translations/LanguageContext";
+import { useLanguage } from "../translations/LanguageContext.jsx";
 
 
 function About() {
