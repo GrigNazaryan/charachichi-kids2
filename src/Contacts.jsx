@@ -10,7 +10,7 @@ function Contacts() {
     email: '',
     message: '',
   });
-  const [status, setStatus] = useState(null); // null | 'sending' | 'success' | 'error'
+  const [status, setStatus] = useState(null);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -22,10 +22,10 @@ function Contacts() {
 
     emailjs
       .send(
-        'service_e0p6zqp',     // замените на свой service ID
-        'template_8j19lnw',    // замените на свой template ID
+        'service_e0p6zqp',    
+        'template_8j19lnw',   
         formData,
-        'mcnul6eHahCA4Mqbr'         // замените на свой user ID (public key)
+        'mcnul6eHahCA4Mqbr'   
       )
       .then(
         () => {
