@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 
-  base: '/',
+  base: '/charachichi-kids2/',
 
   build: {
     outDir: 'dist',
